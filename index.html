@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя визитка</title>
+    <!-- Подключаем наш файл со стилями -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div class="container"> <!-- Создали общую оболочку, чтобы сайт был аккуратным окошком -->
+
+     <header class="site-header">
+        <h1>Я — Букатюк Ангелина</h1>   
+        <h2>Выпускница 9 класса и абитуриент в колледж имени Магжана Жумабаева</h2>
+     </header>
+
+     <main class="site-main">
+        <div class="bio-text">
+            <p>Моя цель — <strong>стать настоящим программистом</strong>, создавать что-то настолько уникальное, чтобы все знали: <strong>Это — Букатюк Ангелина</strong></p>
+            <p>Этот колледж — <em>путь к исполнению моей мечты</em></p>
+        </div>
+        
+        <!-- Картинка котика -->
+        <img class="profile-img" src="cat.jpg" alt="Здесь красивый котенок, а могло быть мое фото">
+        
+        <div class="skills-block">
+            <h3>Я уже знаю:</h3>
+            <ul>
+                <li>Как создавать HTML-страницы и базовые сайты</li>
+                <li>Азы таких языков как: Python, C# и CSS</li>
+                <li>И самое главное: чинить код и не паниковать в критических ситуациях</li>
+            </ul>
+        </div>
+     </main>
+
+     <section class="form-section">
+        <h3>Свяжитесь со мной:</h3>
+        <form class="feedback-form">
+            <div class="form-group">
+                <label>Как вас зовут?</label>
+                <input type="text" placeholder="Иван Иванов">
+            </div>
+
+            <div class="form-group">
+                <label>Ваш Email:</label>
+                <input type="email" placeholder="example@mail.com">
+            </div>
+
+            <div class="form-group">
+                <label>Секретное слово:</label>
+                <input type="password" placeholder="Все между нами...">
+            </div>
+
+            <button type="submit" class="submit-btn">Отправить сообщение</button>
+        </form>
+     </section>
+
+     <footer class="site-footer">
+        <h3>Вы можете связаться со мной:</h3>
+        <p>В <a href="https://t.me/irisweef" target="_blank">Телеграм</a>.</p>
+        <p>Написать на Ватсапп или позвонить по номеру <a href="tel:+77076811281">+7-707-681-12-81</a></p>
+     </footer>
+
+ </div> <!-- Конец container -->
+
+</body>
+</html>

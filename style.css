@@ -1,0 +1,153 @@
+/* 1. Глобальные настройки (Мягкий фон и красивый шрифт) */
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #fcfbfa; /* Очень мягкий, уютный кремовый цвет */
+    color: #3d3a36;            /* Уютный темно-серый, почти шоколадный текст */
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+/* 2. Контейнер, который держит весь сайт по центру */
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Белоснежная подложка для контента */
+    padding: 40px;
+    border-radius: 24px;       /* Сильное уютное скругление */
+    box-shadow: 0 10px 30px rgba(142, 132, 118, 0.08); /* Очень бледная, мягкая тень */
+}
+
+/* 3. Шапка */
+.site-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.site-header h1 {
+    color: #4a3e56; /* Нежный черничный оттенок */
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.site-header h2 {
+    color: #8a817c; /* Ослабленный кофейный цвет для подзаголовка */
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* 4. Оформление картинки (Котика) */
+.profile-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;       /* Скругляем углы котику */
+    margin: 30px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* 5. Списки и текст */
+.skills-block h3 {
+    color: #4a3e56;
+    margin-top: 30px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Красивые ссылки */
+a {
+    color: #6b5b95;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px dashed #e4dff2; /* Не подчеркивание, а мягкий пунктир */
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: #4a3e56;
+    border-bottom-color: #4a3e56;
+}
+
+/* 6. Уютная форма обратной связи */
+.form-section {
+    background-color: #f7f5f0; /* Чуть более темная подложка для зоны формы */
+    padding: 25px;
+    border-radius: 18px;
+    margin: 40px 0;
+}
+
+.form-section h3 {
+    margin-top: 0;
+    color: #4a3e56;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #6b645d;
+}
+
+/* Стилизация полей ввода */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #e2ded5;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 1rem;
+    color: #3d3a36;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+/* Эффект когда кликаем в поле ввода */
+input:focus {
+    outline: none;
+    border-color: #6b5b95;
+    box-shadow: 0 0 0 3px rgba(107, 91, 149, 0.15); /* Мягкое свечение вокруг */
+}
+
+/* Кнопка */
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #6b5b95; /* Черничная кнопка */
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #524475; /* Темнеет при наведении */
+}
+
+/* 7. Подвал (Footer) */
+.site-footer {
+    text-align: center;
+    border-top: 1px solid #eeebe4;
+    padding-top: 25px;
+    font-size: 0.95rem;
+}
+
+.site-footer h3 {
+    color: #4a3e56;
+}
